@@ -5,4 +5,4 @@
   height:calc(var(--bili) * 80);
 }
 
-.r{position:fixed; bottom:0;}
+.r{position:bottom}
