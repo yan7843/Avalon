@@ -2,33 +2,72 @@ var array10 = ["梅林","派西維爾","魔甘娜","刺客","莫德雷德","奧�
 var array9 = ["梅林","派西維爾","魔甘娜","刺客","莫德雷德","奧伯倫","忠臣","忠臣","忠臣"]
 var array8 = ["梅林","派西維爾","魔甘娜","刺客","莫德雷德","忠臣","忠臣","忠臣"]
 
-var myImage = document.querySelector('img');
-myImage.onclick = function() {
-    var mySrc = myImage.getAttribute('src');
-    if(mySrc == 'images/card.jpg') {
-      myImage.setAttribute ('src','images/card2.jpg');
-    } else {
-      myImage.setAttribute ('src','images/card.jpg');
-    }
+  function runover() {
+    window.location.replace("over.html");
 }
+
+  function runindex() {
+    window.location.replace("index.html");
+}
+
+  function run1() {
+    window.location.replace("p1.html");    
+}
+
+  function run2() {
+    window.location.replace("p2.html");    
+}
+
+  function run3() {
+    window.location.replace("p3.html");    
+}
+
+  function run4() {
+    window.location.replace("p4.html");    
+}
+
+  function run5() {
+    window.location.replace("p5.html");    
+}
+
+  function run6() {
+    window.location.replace("p6.html");    
+}
+
+  function run7() {
+    window.location.replace("p7.html");    
+}
+
+  function run8() {
+    window.location.replace("p8.html");    
+}
+
+  function run9() {
+    window.location.replace("p9.html");    
+}
+
+  function run10() {
+    window.location.replace("p10.html");    
+}
+
 
   function back8(){
     var user = JSON.parse(localStorage.getItem("userInfo"))
     if (user[8] === undefined){
-      window.location="index.html";
+      window.location.replace("over.html");
     }
     else{
-        window.location="p9.html";
+        window.location.replace("p9.html");
       }
   }
 
   function back9(){
     var user = JSON.parse(localStorage.getItem("userInfo"))
     if (user[9] === undefined){
-      window.location="index.html";
+      window.location.replace("over.html");
     }
     else{
-        window.location="p10.html";
+        window.location.replace("p10.html");
       }
   }
 
@@ -85,7 +124,7 @@ myImage.onclick = function() {
 
   function see(){
     var user = JSON.parse(localStorage.getItem("userInfo"))     
-     alert("1家 "+user[0]+"\r"+"2家 "+user[1]+"\r"+"3家 "+user[2]+"\r"+"4家 "+user[3]+"\r"+"5家 "+user[4]+"\r"+"6家 "+user[5]+"\r"+"7家 "+user[6]+"\r"+"8家 "+user[7]+"\r"+"9家 "+user[8]+"\r"+"10家 "+user[9]);
+      alert("1家 "+user[0]+"\r"+"2家 "+user[1]+"\r"+"3家 "+user[2]+"\r"+"4家 "+user[3]+"\r"+"5家 "+user[4]+"\r"+"6家 "+user[5]+"\r"+"7家 "+user[6]+"\r"+"8家 "+user[7]+"\r"+"9家 "+user[8]+"\r"+"10家 "+user[9]);
   }
 
 
