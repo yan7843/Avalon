@@ -146,8 +146,7 @@ var array8 = ["梅林","派西維爾","魔甘娜","刺客","莫德雷德","忠�
       var user = JSON.parse(localStorage.getItem("userInfo"))
       var text = document.getElementById("text");
       var input = document.getElementById('input');
-      input.value = '記住了';
-      var input = document.getElementById("input");  
+      input.value = '記住了'; 
       input.onclick = run2;
       var img = document.getElementById('img');
         if(user[0] === "梅林"){
@@ -347,7 +346,6 @@ var array8 = ["梅林","派西維爾","魔甘娜","刺客","莫德雷德","忠�
       var text = document.getElementById("text");
       var input = document.getElementById('input');
       input.value = '記住了';
-      var input = document.getElementById("input");  
       input.onclick = run3;
       var img = document.getElementById('img');
         if(user[1] === "梅林"){
@@ -546,8 +544,7 @@ var array8 = ["梅林","派西維爾","魔甘娜","刺客","莫德雷德","忠�
       var user = JSON.parse(localStorage.getItem("userInfo"))
       var text = document.getElementById("text");
       var input = document.getElementById('input');
-      input.value = '記住了';
-      var input = document.getElementById("input");  
+      input.value = '記住了'; 
       input.onclick = run4;
       var img = document.getElementById('img');
         if(user[2] === "梅林"){
@@ -747,7 +744,6 @@ var array8 = ["梅林","派西維爾","魔甘娜","刺客","莫德雷德","忠�
       var text = document.getElementById("text");
       var input = document.getElementById('input');
       input.value = '記住了';
-      var input = document.getElementById("input");  
       input.onclick = run5;
       var img = document.getElementById('img');
         if(user[3] === "梅林"){
@@ -947,8 +943,7 @@ var array8 = ["梅林","派西維爾","魔甘娜","刺客","莫德雷德","忠�
       var user = JSON.parse(localStorage.getItem("userInfo"))
       var text = document.getElementById("text");
       var input = document.getElementById('input');
-      input.value = '記住了';
-      var input = document.getElementById("input");  
+      input.value = '記住了';  
       input.onclick = run6;
       var img = document.getElementById('img');
         if(user[4] === "梅林"){
@@ -1148,8 +1143,7 @@ var array8 = ["梅林","派西維爾","魔甘娜","刺客","莫德雷德","忠�
       var user = JSON.parse(localStorage.getItem("userInfo"))
       var text = document.getElementById("text");
       var input = document.getElementById('input');
-      input.value = '記住了';
-      var input = document.getElementById("input");  
+      input.value = '記住了'; 
       input.onclick = run7;
       var img = document.getElementById('img');
         if(user[5] === "梅林"){
@@ -1349,7 +1343,6 @@ var array8 = ["梅林","派西維爾","魔甘娜","刺客","莫德雷德","忠�
       var text = document.getElementById("text");
       var input = document.getElementById('input');
       input.value = '記住了';
-      var input = document.getElementById("input");  
       input.onclick = run8;
       var img = document.getElementById('img');
         if(user[6] === "梅林"){
@@ -1548,8 +1541,7 @@ var array8 = ["梅林","派西維爾","魔甘娜","刺客","莫德雷德","忠�
       var user = JSON.parse(localStorage.getItem("userInfo"))
       var text = document.getElementById("text");
       var input = document.getElementById('input');
-      input.value = '記住了';
-      var input = document.getElementById("input");  
+      input.value = '記住了'; 
       input.onclick = back8;
       var img = document.getElementById('img');
         if(user[7] === "梅林"){
@@ -1748,8 +1740,7 @@ var array8 = ["梅林","派西維爾","魔甘娜","刺客","莫德雷德","忠�
       var user = JSON.parse(localStorage.getItem("userInfo"))
       var text = document.getElementById("text");
       var input = document.getElementById('input');
-      input.value = '記住了';
-      var input = document.getElementById("input");  
+      input.value = '記住了'; 
       input.onclick = back9;
       var img = document.getElementById('img');
         if(user[8] === "梅林"){
@@ -1770,7 +1761,7 @@ var array8 = ["梅林","派西維爾","魔甘娜","刺客","莫德雷德","忠�
         if(user[8] === "奧伯倫"){
           img.src = 'images/奧伯倫.jpg';
         }
-        if(user0[8] === "忠臣"){
+        if(user[8] === "忠臣"){
           img.src = 'images/忠臣.jpg';
         }
 
@@ -1948,8 +1939,7 @@ var array8 = ["梅林","派西維爾","魔甘娜","刺客","莫德雷德","忠�
       var user = JSON.parse(localStorage.getItem("userInfo"))
       var text = document.getElementById("text");
       var input = document.getElementById('input');
-      input.value = '記住了';
-      var input = document.getElementById("input");  
+      input.value = '記住了'; 
       input.onclick = runover;
       var img = document.getElementById('img');
         if(user[9] === "梅林"){
