@@ -11,7 +11,7 @@ var array8 = ["梅林","派西維爾","魔甘娜","刺客","莫德雷德","忠�
 }
 
   function run1() {
-    window.location.replace("p1.html");    
+    window.location.href = "p1.html";    
 }
 
   function run2() {
